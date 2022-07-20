@@ -1,2 +1,3 @@
-# Bellabeat-Data-Analysis-Case
-In this case study I was tasked with fulfilling on the role of a Junior Data Analyst for Bellabeat a high-tech manufacturer of health-focused products for women. We we given the key business task of analyzing and identifying user trends and patterns to better understand how people are currently using their smart devices. We followed the steps of the data analysis process: ask, prepare, process, analyze, share, and act in order to gain good insight. I used tools such as SQL, Excel, Google Slides, and Tableau for this project in order to better comprehend and visualize the data. Many of the essential characteristics of a data analyst are present in this project, and I think you will agree.
+# Bellabeat Data Analysis Case
+*Presented by Enrique Lara*
+
