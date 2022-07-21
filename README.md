@@ -27,7 +27,7 @@ The data is seperated into 18 distinct files, meauring the activity of 30 eligib
 
 For my analysis, I opted to concentrate on three essential parts of the data: daily activity, weight, and sleep. As a result, in my study, I limited the number of files to just six. The following are the files used:
 1. dailyActivity_merged
-2.dailyCalories_merged
+2. dailyCalories_merged
 3. dailySteps_merged
 4. hourlyCalories_merged
 5. sleepDay_merged
