@@ -43,7 +43,7 @@ ROCCC Method to determine credibility and integrity
 ### Limits of our data
 - Small Sample Size: Our analysis consistently show that our samples are made up of small sample sizes. In our weight datafile, for example, there are just 8 distinct individuals. A higher sample size would be recommended to have a better grasp of our findings.
 - Missing Context: Exploring the datasets was hard since many of our variables lacked context. Calories for example were assumed to be burned, but could also be easily confused as calories consumed, there is no clear explanation. 
-- Outliers: In our analsysi, there were a disproportionate number of outliers. We noticed that many entries for daily activity recorded no calories and a high number of inactivity. It was safe for us to assume that these were inactive devices, but there were others that were less obvious.
+- Outliers: In our analysis, there were a disproportionate number of outliers. We noticed that many entries for daily activity recorded no calories and a high number of inactivity. It was safe for us to assume that these were inactive devices, but there were others that were less obvious.
 
 
 ## PROCESS
