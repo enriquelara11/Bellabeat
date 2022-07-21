@@ -25,13 +25,13 @@ Thank you to MÖBIUS [LINK TO HIS PROFILE] for providing this dataset through Ka
 
 The data is seperated into 18 distinct files, meauring the activity of 30 eligible fitbit users who consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring.
 
-I decided to focus on 3 key aspects of the data, those being Daily Activity, Weight, Sleep. Therefor in my analysis I reduced the number of files used to only 6. The files are as followed: 
-- dailyActivity_merged
-- dailyCalories_merged
-- dailySteps_merged
-- hourlyCalories_merged
-- sleepDay_merged
-- weightLogInfo_merged
+For my analysis, I opted to concentrate on three essential parts of the data: daily activity, weight, and sleep. As a result, in my study, I limited the number of files to just six. The following are the files used:
+1. dailyActivity_merged
+2.dailyCalories_merged
+3. dailySteps_merged
+4. hourlyCalories_merged
+5. sleepDay_merged
+6. weightLogInfo_merged
 
 
 
