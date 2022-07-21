@@ -9,5 +9,16 @@ I am currently working as a junior data analyst for Bellabeat's marketing analys
 
 ### Our Stakeholders
 - Marketing Analyst Team: My team, this is a group of data analysts that are in charge of gathering, evaluating, and driving Bellabeat's marketing strategy.
-- Bellabeat Executive Team: Team who will decide whether to accept the marketing team's recommendations.
+- Bellabeat ExecÅutive Team: Team who will decide whether to accept the marketing team's recommendations.
 - Urška Sršen: Cofounder and Chief Creative Oﬃcer of Bellabeat Urška Sršen.
+
+### Business Task
+We seek to understand how people utilize the bellabeat devices differently by analyzing smart device usage from a sample of customers. Using the information from the study, we wish to suggest some new opportunities for the company's growth.
+
+## Data
+Thank you to MÖBIUS for providing this dataset through Kaggle.
+
+The dataset license has been issued to the public domain on the website Kaggle. 
+License: CC0: Public Domain
+
+
