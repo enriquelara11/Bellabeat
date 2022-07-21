@@ -20,9 +20,12 @@ We seek to understand how people utilize the bellabeat devices differently by an
 ## PREPARE
 ### Data
 Thank you to MÖBIUS [LINK TO HIS PROFILE] for providing this dataset through Kaggle.
-
 - The dataset license has been issued to the public domain on the website Kaggle. 
 - License [LICENSE LINK]: CC0: Public Domain
+
+The data is seperated into 18 distinct files, meauring the activity of 30 eligible fitbit users who consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring.
+
+I decided to focus on 3 key aspects of the data, those being Daily Activity, Weight, Sleep. Therefor in my analysis I reduced the number of files used to only 6.
 
 
 ## PROCESS
