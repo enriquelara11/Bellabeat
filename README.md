@@ -57,9 +57,17 @@ After close examination of our data, SQL and Excel were chosen as the preffered 
 
 
 ## ANALYZE
-### Daily Activity
-### Weight
-### Sleep
+To get a better understanding of how our consumers are already utilizing their devices, we chose to look at three major health trends. These are Daily Activity, Body Weight, and Sleep.
+
+### The Impact of Everyday Activity
+Daily activity is vital for our analysis since it allows us to find patterns in our users' behavior throughout the day.
+
+### The Importance of Weight
+Weight is an important consideration since we feel fitness is one of the primary reasons our consumers will utilize the product. In our investigation, we hope to confirm this hypothesis and build a service around it.
+
+### Prioritizing Sleep
+We feel sleep is an essential component because we can determine whether we need to expand our services to accommodate individuals' sleeping habits, and we may be able to determine whether the user receives useful information from such service.
+
 
 [Explain why we are anlyzing the above]
 
