@@ -76,7 +76,7 @@ We feel sleep is an essential component because we can determine whether we need
 
 
 ## ACT
-From the analysis we have come up with 3 recommendations we believe our marketing team should review.
+Based on our analysis, we feel our marketing team should consider these three recommendations.
 
 1. Begin by focusing on the users' well-being. By emphasizing the value of the user, we may encourage engagement among our members in the hopes of expanding the service without spending large sums on marketing. 
 2. Developing  a wellness program for members, in our analysis we observed that users wear the devices in order to gain insight into their health. We may include a reminder for simple actions, such as taking a specific amount of steps or running the last mile.  Users who need motivation  to take charge of their health may benefit from a weight loss option.
