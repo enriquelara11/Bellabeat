@@ -70,13 +70,19 @@ We feel sleep is an essential component because we can determine whether we need
 
 
 ## SHARE 
-Maybe share some of the visualizations, findings
+- All SQL Queries used are availble in Bellabeat_sql
+- Google Slides Presentation 
+- Public Tableau Dashboard is available here
 
-Further analysis will be shown here.
 
 ## ACT
-Talk about the recommendations. 
+From the analysis we have come up with 3 recommendations we believe our marketing team should review.
 
-Thank you, hope you enjoyed! 😁📊
+1. Begin by focusing on the users' well-being. By emphasizing the value of the user, we may encourage engagement among our members in the hopes of expanding the service without spending large sums on marketing. 
+2. Developing  a wellness program for members, in our analysis we observed that users wear the devices in order to gain insight into their health. We may include a reminder for simple actions, such as taking a specific amount of steps or running the last mile.  Users who need motivation  to take charge of their health may benefit from a weight loss option.
+3. Focus on sleep. Our observations show that when a person sleeps for 7-8 hours, he or she is considerably more engaged in everyday tasks. We might give a colorful daily statistic that could be readily shared on social media to remind people of the necessity of getting enough sleep.
+
+
+Thank you for taking the time to evaluate my project; I had a great time working on it and hope you appreciate it as much as I did! 😁📊
 
 
