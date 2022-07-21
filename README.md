@@ -46,8 +46,15 @@ ROCCC Method to determine credibility and integrity
 - Outliers: In our analsysi, there were a disproportionate number of outliers. We noticed that many entries for daily activity recorded no calories and a high number of inactivity. It was safe for us to assume that these were inactive devices, but there were others that were less obvious.
 
 
-
 ## PROCESS
+### Tools
+After close examination of our data, SQL and Excel were chosen as the preffered method for analyzing. Tableau would be used to create a dashboard and visualize our results. Google slides would also be used to create a presentation that could eaisly be shared.
+
+### Cleaning the Data
+- Using Excel, deleted all duplicate and blank values from our datasets
+- Using Excel, we chose six data files and carefully screened out any outliers that would present bias our results
+- Dates were also formatted in standard YYYY-MM-DD for SQL
+
 
 ## ANALYZE
 
