@@ -13,8 +13,8 @@ We seek to understand how people utilize the bellabeat devices differently by an
 
 ### Our Stakeholders
 - Marketing Analyst Team: My team, this is a group of data analysts that are in charge of gathering, evaluating, and driving Bellabeat's marketing strategy.
-- Bellabeat ExecÅutive Team: Team who will decide whether to accept the marketing team's recommendations.
-- Urška Sršen: Cofounder and Chief Creative Oﬃcer of Bellabeat Urška Sršen.
+- Bellabeat Executive Team: Team who will decide whether to accept the marketing team's recommendations.
+- Urška Sršen: Cofounder and Chief Creative Oﬃcer of Bellabeat.
 
 
 ## PREPARE
