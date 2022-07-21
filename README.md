@@ -7,23 +7,23 @@ Bellabeat is a high-tech maufacturer of health-focused products for women. Uršk
 ### Scenario
 I am currently working as a junior data analyst for Bellabeat's marketing analyst team. Our goal is to analyze users trends in order to gain insight into how people are currently utilizing their smart devices. Bellabeat's cofounder and chief creative officer, Urka Sren, thinks that by examining smart devices, we might find new ways for the business to grow. I've been tasked to give the Bellabeat executive team  my analysis and a few high-level suggestions for Bellabeat's marketing plan. The information I find will help guide the future marketing strategy of the business.
 
+## ASK
+### Business Task
+We seek to understand how people utilize the bellabeat devices differently by analyzing smart device usage from a sample of customers. Using the information from the study, we wish to suggest some new opportunities for the company's growth.
+
 ### Our Stakeholders
 - Marketing Analyst Team: My team, this is a group of data analysts that are in charge of gathering, evaluating, and driving Bellabeat's marketing strategy.
 - Bellabeat ExecÅutive Team: Team who will decide whether to accept the marketing team's recommendations.
 - Urška Sršen: Cofounder and Chief Creative Oﬃcer of Bellabeat Urška Sršen.
 
-### Business Task
-We seek to understand how people utilize the bellabeat devices differently by analyzing smart device usage from a sample of customers. Using the information from the study, we wish to suggest some new opportunities for the company's growth.
 
-## Data
+## PREPARE
+### Data
 Thank you to MÖBIUS for providing this dataset through Kaggle.
 
 - The dataset license has been issued to the public domain on the website Kaggle. 
 - License: CC0: Public Domain
 
-## ASK
-
-## PREPARE
 
 ## PROCESS
 
