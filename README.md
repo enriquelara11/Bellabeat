@@ -34,7 +34,11 @@ For my analysis, I opted to concentrate on three essential parts of the data: da
 6. weightLogInfo_merged
 
 ROCCC Method to determine credibility and integrity
-- Reliability: The data has been provided by Amazon Mechanical Turk
+- Reliability: The data has been provided by Amazon Mechanical Turk 
+- Originality: 
+- Comprehensiveness
+- Current
+- Cited
 
 
 
