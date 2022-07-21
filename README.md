@@ -34,9 +34,9 @@ For my analysis, I opted to concentrate on three essential parts of the data: da
 6. weightLogInfo_merged
 
 ROCCC Method to determine credibility and integrity
-- Reliability: The data has been provided by Amazon Mechanical Turk 
-- Originality: 
-- Comprehensiveness
+- Reliability: The data has been provided by Amazon Mechanical Turk, a site owned by Amazon, Inc. It is a legitimate crowdsourcing platform for businesses. However there are many problems with the data inlcuding the relatively small sample size. We concluded that the data is *NOT* reliable for our analysis.
+- Originality: Because the datasets for this investigation were given by Amazon Mechanical Turks, they exhibit *low* levels of originality.
+- Comprehensiveness: At times many of the datasets for this analysis were hard to fully comprehend. There is context missing from many of the factors within our files. We concluded that the level of comprehesivess is *Poor*.
 - Current
 - Cited
 
