@@ -57,7 +57,7 @@ After close examination of our data, SQL and Excel were chosen as the preffered 
 
 
 ## ANALYZE
-To get a better understanding of how our consumers are already utilizing their devices, we chose to look at three major health trends. These are Daily Activity, Body Weight, and Sleep.
+To get a better understanding of how our consumers are already utilizing their devices, we choose to look at three major health trends daily Activity, Body Weight, and Sleep.
 
 ### The Impact of Everyday Activity
 Daily activity is vital for our analysis since it allows us to find patterns in our users' behavior throughout the day.
