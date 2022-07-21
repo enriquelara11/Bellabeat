@@ -57,9 +57,21 @@ After close examination of our data, SQL and Excel were chosen as the preffered 
 
 
 ## ANALYZE
+### Daily Activity
+### Weight
+### Sleep
+
+[Explain why we are anlyzing the above]
+
 
 ## SHARE 
+Maybe share some of the visualizations, findings
+
+Further analysis will be shown here.
 
 ## ACT
+Talk about the recommendations. 
+
+Thank you, hope you enjoyed! 😁📊
 
 
