@@ -19,10 +19,10 @@ We seek to understand how people utilize the bellabeat devices differently by an
 
 ## PREPARE
 ### Data
-Thank you to MÖBIUS for providing this dataset through Kaggle.
+Thank you to MÖBIUS [LINK TO HIS PROFILE] for providing this dataset through Kaggle.
 
 - The dataset license has been issued to the public domain on the website Kaggle. 
-- License: CC0: Public Domain
+- License [LICENSE LINK]: CC0: Public Domain
 
 
 ## PROCESS
