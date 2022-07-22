@@ -85,19 +85,23 @@ ORDER BY day_week
 
 -- 9. Daily breakdown of our users activity level throughout the day as percentages
 SELECT 
-ROUND((ROUND(AVG(very_active_prcnt))/84)*100,1) AS avg_very_actve_percent, -- results are divided by 84 becasue 
+ROUND((ROUND(AVG(very_active_prcnt))/84)*100,1) AS avg_very_actve_percent, -- results are divided by 84 becasue it was the initial sum of the different activities
 ROUND((ROUND(AVG(fairly_active_prcnt))/84)*100,1) AS avg_fairly_active_percent,
 ROUND((ROUND(AVG(lightly_active_prcnt))/84)*100,1) AS avg_lightly_active_percent,
 ROUND((ROUND(AVG(sedentary_minutes_prcnt))/84)*100,1) AS avg_sedentary_minutes_percent,
 FROM (
   SELECT
-  ROUND(((VeryActiveMinutes/1440)*100),2) AS very_active_prcnt,
+  ROUND(((VeryActiveMinutes/1440)*100),2) AS very_active_prcnt, -- divided by 1440 because that is the total number of minutes in a day
   ROUND(((FairlyActiveMinutes/1440)*100),2) AS fairly_active_prcnt,
   ROUND(((LightlyActiveMinutes/1440)*100),2) AS lightly_active_prcnt,
   ROUND(((SedentaryMinutes/1440)*100),2) AS sedentary_minutes_prcnt,
 FROM dailyactivity_merged.dailyActivity_merged 
 )
+/*
+Very Active = 1.2%, Fairly Active = 1.2%, Lightly Active = 15.5%, Sedentary = 82.1%. 
+We find that users on average spend most of their days in a sedentary state of activity. 
+*/
 
-
+-- 10.
 
 
