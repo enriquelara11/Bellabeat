@@ -57,7 +57,7 @@ After close examination of our data, SQL and Excel were chosen as the preffered 
 
 
 ## ANALYZE
-To get a better understanding of how our consumers are already utilizing their devices, we choose to look at three major health trends daily Activity, Body Weight, and Sleep. We loaded the datasets into Google BigQuery and proceeded to examine each dataset separately or together using a JOIN clause.
+To get a better understanding of how our consumers are already utilizing their devices, we choose to look at three major health trends those being daily activity, body weight, and sleep. We loaded the datasets into Google BigQuery and proceeded to examine each dataset separately or together using a JOIN clause.
 
 ### The Impact of Everyday Activity
 Daily activity is vital for our analysis since it allows us to find patterns in our users' behavior throughout the day.
