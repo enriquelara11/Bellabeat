@@ -3,6 +3,9 @@ SQL Queries for Bellabeat Data Analysis Case
 Each specific query will be given a number, followed by the question or statement it is intended to address.
 */
 
+/*
+DAILY ACTIVITY
+*/
 -- 1. Unique individuals reporting for Daily Activity:
 SELECT distinct iD
 FROM dailyactivity_merged.dailyActivity_merged -- 33 unique users
@@ -102,6 +105,16 @@ Very Active = 1.2%, Fairly Active = 1.2%, Lightly Active = 15.5%, Sedentary = 82
 We find that users on average spend most of their days in a sedentary state of activity. 
 */
 
--- 10.
+-- 10. Relationship between Calories and Total Steps:
+SELECT
+  TotalSteps, 
+  Calories
+FROM `bellabeat-device-analysis.dailyactivity_merged.dailyActivity_merged`
+WHERE Calories > 400 AND TotalSteps > 500 -- Filtering out anybody burning less than 400 and TotalSteps under 500. These results could skew our results. 
+--- The more steps taken, the more calories burned by the user.
+
+/*
+WEIGHT
+*/
 
 
