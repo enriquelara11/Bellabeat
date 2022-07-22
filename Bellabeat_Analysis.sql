@@ -116,5 +116,14 @@ WHERE Calories > 400 AND TotalSteps > 500 -- Filtering out anybody burning less 
 /*
 WEIGHT
 */
+-- 11. Average weight recorded by our users:
+SELECT
+  ROUND(avg(WeightPounds)) as avg_weight_recorded
+FROM
+  `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` -- 159 is the average weight (in lbs)
 
+-- 12. AVG BMI(Body Mass Index) for our users
+
+SELECT ROUND(AVG(BMI),1) as avg_bmi
+FROM `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` -- 25.2 is the average BMI
 
