@@ -127,3 +127,26 @@ FROM
 SELECT ROUND(AVG(BMI),1) as avg_bmi
 FROM `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` -- 25.2 is the average BMI
 
+-- 13. [SKIP FOR NOW]
+
+-- 14. Relationship between total steps and weight recorded:
+SELECT DISTINCT -- return distinct values for weight and total in order to avoid repeated rows 
+  weight.WeightPounds,
+  steps.TotalSteps
+FROM `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` weight
+LEFT JOIN `bellabeat-device-analysis.dailyactivity_merged.dailySteps_merged` steps -- LEFT JOIN used to combine the results from daily_activity with weight
+ON weight.Id = steps.Id
+--- We find that in general the higher weight a user records, the less steps they will take. 
+
+-- 15. What is the AVG amount of time spent sleeping / spent in bed total / time spent in bed not sleeping? 
+SELECT
+  ROUND(avg(TotalMinutesAsleep/60),1) AS avg_time_sleep_hrly, -- avg time spent in bed sleeping
+  ROUND(avg(TotalTimeInBed/60),2) AS avg_time_bed_hrly, -- avg time spent in bed total
+  ROUND(avg(TotalTimeInBed) - avg(TotalMinutesAsleep)) AS time_bed_aftersleep -- avg time spent in bed not sleeping
+FROM
+  `bellabeat-device-analysis.dailyactivity_merged.sleepDay_merged`
+  /*
+   7 hours spent sleeping
+   7.64 hours spent in bed = 7:38 minutes
+   38 minutes spent in bed, not sleeping
+  */
