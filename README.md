@@ -48,19 +48,19 @@ ROCCC Method to determine credibility and integrity
 
 ## PROCESS
 ### Tools
-After close examination of our data, SQL and Excel were chosen as the preffered method for analyzing. Tableau would be used to create a dashboard and visualize our results. Google slides would also be used to create a presentation that could eaisly be shared.
+After carefully examining our data, the preferred methods chosen for analysis were SQL and Excel. We used Tableau to make a dashboard and visualize our results. A presentation with a professional appearance that could be shared with others was made using Google Slides.
 
 ### Cleaning the Data
-- Using Excel, deleted all duplicate and blank values from our datasets
-- Using Excel, we chose six data files and carefully screened out any outliers that would present bias our results
-- Dates were also formatted in standard YYYY-MM-DD for SQL
+- Using Excel, deleted all duplicate and blank values from our datasets.
+- Using Excel, we chose six data files and carefully screened out any outliers that would present bias in our results.
+- Dates were also formatted in standard YYYY-MM-DD for SQL.
 
 
 ## ANALYZE
-To get a better understanding of how our consumers are already utilizing their devices, we choose to look at three major health trends those being daily activity, body weight, and sleep. We loaded the datasets into Google BigQuery and proceeded to examine each dataset separately or together using a JOIN clause.
+To get a better understanding of how our consumers are already utilizing their devices, we choose to look at three major health trends those being daily activity, body weight, and sleep. We loaded the datasets into Google BigQuery and proceeded to examine each dataset separately or together using a JOIN clause in SQL.
 
 ### The Impact of Everyday Activity
-Daily activity is vital for our analysis since it allows us to find patterns in our users' behavior throughout the day.
+Daily activity is vital for our analysis since it allows us to find patterns in our users behavior throughout the day.
 
 ### The Importance of Weight
 Weight is an important consideration since we feel fitness is one of the primary reasons our consumers will utilize the product. In our investigation, we hope to confirm this hypothesis and build a service around it.
@@ -71,8 +71,8 @@ We feel sleep is an essential component because we can determine whether we need
 
 ## SHARE 
 - All SQL Queries used are availble in [Bellabeat_sql](https://github.com/enriquelara11/Bellabeat/blob/main/Bellabeat_Analysis.sql)
-- Google Slides Presentation 
-- Public Tableau Dashboard is available here
+- A Presention made using Google Slides can be found in this [Link]
+- Public Tableau Dashboard is available in this [Link]
 
 
 ## ACT
