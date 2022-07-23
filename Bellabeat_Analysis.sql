@@ -176,6 +176,24 @@ FROM (
   SleepDate 
   ORDER BY
   total_hours_sleep DESC 
-  )
-  --- Users spend 7hrs on average sleeping, SUN and WED is the day that users record the most sleep while getting the least amount on TUES and THU
+ )
+ --- Users spend 7hrs on average sleeping, SUN and WED is the day that users record the most sleep while getting the least amount on TUES and THU
+ 
+ -- 17. The impact of sleep on daily activity:
+SELECT
+  ROUND((sleep.TotalMinutesAsleep/60),2) AS Hours_Sleep, 
+  daily.FairlyActiveMinutes, 
+  daily.LightlyActiveMinutes, 
+  daily.VeryActiveMinutes, 
+  daily.SedentaryMinutes
+FROM `bellabeat-device-analysis.dailyactivity_merged.sleepDay_merged` sleep
+LEFT JOIN `bellabeat-device-analysis.dailyactivity_merged.dailyActivity_merged` daily
+ON sleep.Id = daily.Id AND sleep.SleepDate = daily.ActivityDate
+/* 
+for the following activity we decided to focus on sedentary and lightly active minutes and their relationship to sleep
+We discovered that when people sleep around 7-8 hours, they have the highest amount of energy levels for both sedentary and lightly active 
+we also discovered that the user's daily activity decreases significantly depending on how much or how little they sleep.
+*/
+ 
+ 
   
