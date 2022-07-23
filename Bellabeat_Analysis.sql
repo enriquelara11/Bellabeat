@@ -127,8 +127,17 @@ FROM
 SELECT ROUND(AVG(BMI),1) as avg_bmi
 FROM `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` -- 25.2 is the average BMI
 
--- 13. [SKIP FOR NOW]
-
+-- 13. What is the relationship between different sedentary levels and weight?
+SELECT DISTINCT
+  weight.WeightPounds,
+  daily.SedentaryMinutes
+FROM `bellabeat-device-analysis.dailyactivity_merged.weightLogInfo_merged` weight
+LEFT JOIN `bellabeat-device-analysis.dailyactivity_merged.dailyActivity_merged`daily
+ON weight.Id = daily.Id AND weight.Date_2 = daily.ActivityDate -- in order to avoid repeated rows we added a second condition
+/*
+We converted the results from SQL to Excel and divided the sedentary levels into three groups before calculating the average weight of each.
+We noticed that people who engage in more sedentary behavior tend to weigh more than others.
+*/
 -- 14. Relationship between total steps and weight recorded:
 SELECT DISTINCT -- return distinct values for weight and total in order to avoid repeated rows 
   weight.WeightPounds,
