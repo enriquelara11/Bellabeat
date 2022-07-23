@@ -70,7 +70,7 @@ We feel sleep is an essential component because we can determine whether we need
 
 
 ## SHARE 
-- All SQL Queries used are availble in Bellabeat_sql
+- All SQL Queries used are availble in [Bellabeat_sql](https://github.com/enriquelara11/Bellabeat/blob/main/Bellabeat_Analysis.sql)
 - Google Slides Presentation 
 - Public Tableau Dashboard is available here
 
@@ -78,9 +78,9 @@ We feel sleep is an essential component because we can determine whether we need
 ## ACT
 Based on our analysis, we feel our marketing team should consider these three recommendations.
 
-1. Begin by focusing on the users' well-being. By emphasizing the value of the user, we may encourage engagement among our members in the hopes of expanding the service without spending large sums on marketing. 
-2. Developing  a wellness program for members, in our analysis we observed that users wear the devices in order to gain insight into their health. We may include a reminder for simple actions, such as taking a specific amount of steps or running the last mile.  Users who need motivation  to take charge of their health may benefit from a weight loss option.
-3. Focus on sleep. Our observations show that when a person sleeps for 7-8 hours, he or she is considerably more engaged in everyday tasks. We might give a colorful daily statistic that could be readily shared on social media to remind people of the necessity of getting enough sleep.
+1. Begin by focusing on the users' well-being. We should ensure that everything we do is geared towards making sure the customer has the best possible experince from our products. By emphasizing the value of the user, we may encourage engagement among our members in the hopes of expanding the service without spending large sums on marketing. 
+2. Developing  a wellness program for members within the Bellabeat app, in our analysis we observed that users wear the devices in order to gain insight into their health. We may include a reminder for simple actions, such as taking a specific amount of steps or running the last mile.  Users who need motivation to take charge of their health may benefit from a weight loss option that could be included in our 
+3. Focus on sleep. Our observations show that when a person sleeps for 7-8 hours, he or she is considerably more engaged in everyday tasks. We might give a colorful daily statistic that could be readily shared on social media to remind people of the necessity of getting enough sleep. This is a form of free marketing for Bellabeat. By concentrating on sleep, we are able to provide results for our users, which may generate results for us in the long run.
 
 
 Thank you for taking the time to evaluate my project; I had a great time working on it and hope you appreciate it as much as I did! 😁📊
