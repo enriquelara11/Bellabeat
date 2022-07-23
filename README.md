@@ -71,8 +71,8 @@ We feel sleep is an essential component because we can determine whether we need
 
 ## SHARE 
 - All SQL Queries used are availble in [Bellabeat_sql](https://github.com/enriquelara11/Bellabeat/blob/main/Bellabeat_Analysis.sql)
-- A Presention made using Google Slides can be found in this [Link]
-- Public Tableau Dashboard is available in this [Link]
+- A Presention made using Google Slides can be found in this [Link](https://github.com/enriquelara11/Bellabeat/blob/main/Bellabeat%20Data%20Analysis%20Presentation.pdf)
+- Public Tableau Dashboard is Coming Soon!
 
 
 ## ACT
