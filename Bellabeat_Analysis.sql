@@ -150,3 +150,32 @@ FROM
    7.64 hours spent in bed = 7:38 minutes
    38 minutes spent in bed, not sleeping
   */
+
+-- 16. Sleep patterns throughout the week: 
+--Sleep
+--- What day of the week do users sleep the most?
+--- 1=Sunday, 7=Sat
+SELECT 
+  CASE 
+    WHEN SleepDate = 1 THEN "SUN"
+    WHEN SleepDate = 2 THEN "MON"
+    WHEN SleepDate = 3 THEN "TUE"
+    WHEN SleepDate = 4 THEN "WED"
+    WHEN SleepDate = 5 THEN "THU"
+    WHEN SleepDate = 6 THEN "FRI"
+    WHEN SleepDate = 7 THEN "SAT"
+    END AS DAY, 
+    total_hours_sleep
+FROM (
+  SELECT
+  EXTRACT(DAYOFWEEK FROM DATE(SleepDate)) AS SleepDate, -- Extracting the numeric day of the week from Date, Sun = 1... Sat = 7
+  ROUND(avg(TotalMinutesAsleep/60),2) AS total_hours_sleep, -- Converting Total Minutes Asleep to Total Hours Asleep
+  FROM
+  `bellabeat-device-analysis.dailyactivity_merged.sleepDay_merged`
+  GROUP BY
+  SleepDate 
+  ORDER BY
+  total_hours_sleep DESC 
+  )
+  --- Users spend 7hrs on average sleeping, SUN and WED is the day that users record the most sleep while getting the least amount on TUES and THU
+  
